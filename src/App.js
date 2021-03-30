@@ -53,61 +53,61 @@ function App() {
 	// 		</div>
 	// 	);
 	// } else {
-		return (
-			<div className='App'>
-				<Switch>
-					<Route exact path='/'>
-						<ReactFullpage
-							scrollOverflow={true}
-							scrollBar={false}
-							onLeave={onLeave}
-							afterLoad={afterLoad}
-							normalScrollElements: '.content11'
-							render={({ state, fullpageApi }) => {
-								return (
-									<div id='fullpage-wrapper'>
-										<div className='section' id='home'>
-											<Home className='home-page' fullpageApi={fullpageApi} />
-										</div>
-										<div className='section' id='about'>
-											<AboutUs />
-										</div>
-										<div className='section' id='events'>
-											<Events />
-										</div>
-										<div className='section' id='pro-events'>
-											<Proevents />
-										</div>
-										<div className='section' id='sponsor'>
-											<Sponsor />
-										</div>
-										<div className='section' id='contact'>
-											<ContactUs />
-										</div>
+	return (
+		<div className='App'>
+			<Switch>
+				<Route exact path='/'>
+					<ReactFullpage
+						scrollOverflow={true}
+						scrollBar={false}
+						onLeave={onLeave}
+						afterLoad={afterLoad}
+						normalScrollElements='.content11'
+						render={({ state, fullpageApi }) => {
+							return (
+								<div id='fullpage-wrapper'>
+									<div className='section' id='home'>
+										<Home className='home-page' fullpageApi={fullpageApi} />
 									</div>
-								);
-							}}
-						/>
-					</Route>
-					<Route path='/event/:id'>
-						<EventPage />
-					</Route>
-					<Route path='/pro-events/:id'>
-						<ProEventPage />
-					</Route>
-					<Route path='/registeration/:id'>
-						<Register />
-					</Route>
-					<GuardedRoute
-						exact
-						path='/registeration-success'
-						component={RegistrationSuccess}
-						auth={true}
+									<div className='section' id='about'>
+										<AboutUs />
+									</div>
+									<div className='section' id='events'>
+										<Events />
+									</div>
+									<div className='section' id='pro-events'>
+										<Proevents />
+									</div>
+									<div className='section' id='sponsor'>
+										<Sponsor />
+									</div>
+									<div className='section' id='contact'>
+										<ContactUs />
+									</div>
+								</div>
+							);
+						}}
 					/>
-				</Switch>
-			</div>
-		);
-	}
+				</Route>
+				<Route path='/event/:id'>
+					<EventPage />
+				</Route>
+				<Route path='/pro-events/:id'>
+					<ProEventPage />
+				</Route>
+				<Route path='/registeration/:id'>
+					<Register />
+				</Route>
+				<GuardedRoute
+					exact
+					path='/registeration-success'
+					component={RegistrationSuccess}
+					auth={true}
+				/>
+			</Switch>
+		</div>
+	);
+}
 // }
 export default App;
 // function App() {
