@@ -35,6 +35,9 @@ function RegistrationSuccess() {
 			<div className='clouds'>
 				<img src={Top} alt='clouds' />
 			</div>
+			<Link to='/'>
+				<i className='event-back fa fa-chevron-left'></i>
+			</Link>
 			<div className='divdiv'>
 				<div>
 					<p className='heading1'>Registration SuccessFul!</p>
@@ -70,19 +73,9 @@ function RegistrationSuccess() {
 				</div>
 				<div>
 					<p className='inst-text'>
-						You've successfully registered for CultRang 2021! A mail have been send to
+						You've successfully registered for CultRang 2021! A mail has been send to
 						you that contains the further instructions.
 					</p>
-				</div>
-				<div style={{marginBottom: '4rem'}}>
-					<Link to='/'>
-						<button
-							className='btn btn-light'
-							style={{ transform: 'translateY(-10px)', marginBottom: '1rem' }}
-						>
-							Back to home
-						</button>
-					</Link>
 				</div>
 			</div>
 			<div className='heading-container-reg'>

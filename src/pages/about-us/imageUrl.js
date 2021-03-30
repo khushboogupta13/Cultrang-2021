@@ -2,28 +2,23 @@ export const IMAGE_URL = {
 	photos: [
 		{
 			id: 1,
-			url:
-				'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616936789/CultRang%20imges/1_ohwy4r.jpg',
+			url: 'https://i.imgur.com/kyq82pS.jpg?1',
 		},
 		{
 			id: 2,
-			url:
-				'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616936789/CultRang%20imges/2_qcs9le.jpg',
+			url: 'https://i.imgur.com/pHDPNJS.jpg?1',
 		},
 		{
 			id: 3,
-			url:
-				'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616936790/CultRang%20imges/3_rr6pkp.jpg',
+			url: 'https://i.imgur.com/6fjQ7R0.jpg?1',
 		},
 		{
 			id: 6,
-			url:
-				'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616936790/CultRang%20imges/6_zgjvmv.jpg',
+			url: 'https://i.imgur.com/AVtXYjD.jpg?1',
 		},
 		{
 			id: 4,
-			url:
-				'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616936790/CultRang%20imges/4_g2mw50.jpg',
+			url: 'https://i.imgur.com/lsPZ8wO.jpg?1',
 		},
 		// {
 		// 	id: 5,
@@ -36,28 +31,23 @@ export const IMAGE_URL = {
 		// },
 		{
 			id: 8,
-			url:
-				'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616936790/CultRang%20imges/8_cwdnl5.jpg',
+			url: 'https://i.imgur.com/mvZLpGR.jpg?1',
 		},
 		{
 			id: 9,
-			url:
-				'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616936791/CultRang%20imges/9_z7mc3k.jpg',
+			url: 'https://i.imgur.com/zD1PuXK.jpg?1',
 		},
 		{
 			id: 10,
-			url:
-				'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616936791/CultRang%20imges/10_quhq05.jpg',
+			url: 'https://i.imgur.com/iBQ6IkF.jpg?1',
 		},
 		{
 			id: 11,
-			url:
-				'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616936791/CultRang%20imges/11_w1qeli.jpg',
+			url: 'https://i.imgur.com/a46YG6K.jpg?1',
 		},
 		{
 			id: 12,
-			url:
-				'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616936791/CultRang%20imges/12_uu8glv.jpg',
+			url: 'https://i.imgur.com/4ccn0kr.jpg?1',
 		},
 		// {
 		// 	id: 13,
@@ -65,13 +55,11 @@ export const IMAGE_URL = {
 		// },
 		{
 			id: 14,
-			url:
-				'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616936791/CultRang%20imges/14_zarfof.jpg',
+			url: 'https://i.imgur.com/slc0Nq8.jpg?1',
 		},
 		{
 			id: 15,
-			url:
-				'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616936791/CultRang%20imges/15_xfhyxj.jpg',
+			url: 'https://i.imgur.com/IhfCmLD.jpg?1',
 		},
 		// {
 		// 	id: 16,
