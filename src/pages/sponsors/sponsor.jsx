@@ -19,7 +19,7 @@ import cb from './logos/cb.png';
 import nBard from './logos/nbard.png';
 
 class Sponsor extends React.Component {
-	render(){
+	render() {
 		return (
 			<div className='sponsor_main'>
 				<img className='cloudVector' src={cloudVect} />
@@ -35,7 +35,7 @@ class Sponsor extends React.Component {
 							id='t1'
 							style={{ flex: '1 0 10vw' }}
 						>
-							<div className='card'>
+							<div className='card' style={{ marginTop: '6vw' }}>
 								<div class='card-body'>
 									<h5 class='card-title'>CO-SPONSOR</h5>
 								</div>
@@ -55,7 +55,7 @@ class Sponsor extends React.Component {
 							id='t2'
 							style={{ flex: '2 0 20vw' }}
 						>
-							<div className='card' id='test'>
+							<div className='card' id='test' style={{ marginTop: '-2vw' }}>
 								<div class='card-body'>
 									<h5 class='card-title'>TITLE SPONSOR</h5>
 								</div>
@@ -64,12 +64,12 @@ class Sponsor extends React.Component {
 									class='card-img-top'
 									alt='...'
 									id='spons-image'
-									style={{ width: '25vw', marginTop: '-7vw' }}
+									style={{ width: '30vw', marginTop: '-7vw' }}
 								/>
 							</div>
 						</a>
 						<a href='#' id='t3' style={{ flex: '1 0 10vw' }}>
-							<div className='card'>
+							<div className='card' style={{ marginTop: '5vw' }}>
 								<div class='card-body'>
 									<h5 class='card-title' style={{ paddingBottom: '0px !important' }}>
 										SPONSORSHIP PARTNER
@@ -207,6 +207,6 @@ class Sponsor extends React.Component {
 			</div>
 		);
 	}
-};
+}
 
 export default Sponsor;

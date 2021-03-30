@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './registerSuccess.css';
 import { Link } from 'react-router-dom';
-import Top from './SVG/register cloud.svg';
-import Bottom from './SVG/register bottom.svg';
+import Top from '../register/SVG/register cloud.svg';
+import Bottom from '../register/SVG/register bottom.svg';
 
 function RegistrationSuccess() {
 	const calculateTimeLeft = () => {
