@@ -2,23 +2,28 @@ export const IMAGE_URL = {
 	photos: [
 		{
 			id: 1,
-			url: 'https://i.imgur.com/kyq82pS.jpg?1',
+			url:
+				'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_1050/v1616936789/CultRang%20imges/1_ohwy4r.webp',
 		},
 		{
 			id: 2,
-			url: 'https://i.imgur.com/pHDPNJS.jpg?1',
+			url:
+				'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_700/v1616936789/CultRang%20imges/2_qcs9le.webp',
 		},
 		{
 			id: 3,
-			url: 'https://i.imgur.com/6fjQ7R0.jpg?1',
+			url:
+				'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_700/v1616936790/CultRang%20imges/3_rr6pkp.webp',
 		},
 		{
 			id: 6,
-			url: 'https://i.imgur.com/AVtXYjD.jpg?1',
+			url:
+				'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,h_700,q_70/v1616936790/CultRang%20imges/6_zgjvmv.webp',
 		},
 		{
 			id: 4,
-			url: 'https://i.imgur.com/lsPZ8wO.jpg?1',
+			url:
+				'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_1050/v1616936790/CultRang%20imges/4_g2mw50.webp',
 		},
 		// {
 		// 	id: 5,
@@ -31,23 +36,28 @@ export const IMAGE_URL = {
 		// },
 		{
 			id: 8,
-			url: 'https://i.imgur.com/mvZLpGR.jpg?1',
+			url:
+				'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,h_700,q_70/v1616936790/CultRang%20imges/8_cwdnl5.webp',
 		},
 		{
 			id: 9,
-			url: 'https://i.imgur.com/zD1PuXK.jpg?1',
+			url:
+				'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,h_700,q_70/v1616936791/CultRang%20imges/9_z7mc3k.webp',
 		},
 		{
 			id: 10,
-			url: 'https://i.imgur.com/iBQ6IkF.jpg?1',
+			url:
+				'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,h_700,q_70/v1616936791/CultRang%20imges/10_quhq05.webp',
 		},
 		{
 			id: 11,
-			url: 'https://i.imgur.com/a46YG6K.jpg?1',
+			url:
+				'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,h_700,q_70/v1616936791/CultRang%20imges/11_w1qeli.webp',
 		},
 		{
 			id: 12,
-			url: 'https://i.imgur.com/4ccn0kr.jpg?1',
+			url:
+				'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_700/v1616936791/CultRang%20imges/12_uu8glv.webp',
 		},
 		// {
 		// 	id: 13,
@@ -55,11 +65,13 @@ export const IMAGE_URL = {
 		// },
 		{
 			id: 14,
-			url: 'https://i.imgur.com/slc0Nq8.jpg?1',
+			url:
+				'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,h_700,q_70/v1616936791/CultRang%20imges/14_zarfof.webp',
 		},
 		{
 			id: 15,
-			url: 'https://i.imgur.com/IhfCmLD.jpg?1',
+			url:
+				'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,h_700,q_70/v1616936791/CultRang%20imges/15_xfhyxj.webp',
 		},
 		// {
 		// 	id: 16,

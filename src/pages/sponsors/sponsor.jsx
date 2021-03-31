@@ -14,7 +14,6 @@ import sociana from './logos/sociana.jpeg';
 import sponsorBull from './logos/sponsor_bull.png';
 import yi from './logos/yi.png';
 import cloudVect from './sponsor_cloud.svg';
-import bottomVect from './sponsor_bottom.png';
 import cb from './logos/cb.png';
 import nBard from './logos/nbard.png';
 
@@ -202,7 +201,11 @@ class Sponsor extends React.Component {
 					</div>
 				</div>
 				<div id='bottomVector'>
-					<img id='bottomPng' src={bottomVect} />
+					<img
+						id='bottomPng'
+						src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_1920/v1617216453/CultRang%20imges/sponsor_bottom_muewnz.webp'
+						style={{ width: '100vw' }}
+					/>
 				</div>
 			</div>
 		);

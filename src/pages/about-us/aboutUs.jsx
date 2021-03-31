@@ -58,8 +58,32 @@ const AboutUs = () => {
 						<div className='content-dark'>
 							<div className='content1'>
 								<div className='content11'>
+									<p className='regrets'>{IMAGE_URL.about.content}</p>
 									<p className='regrets'>
-										{IMAGE_URL.about.content}
+										<a
+											href='https://isb.alienbrains.in/2021?utm_source=Cultrang&utm_medium=website&utm_campaign=isb_cultrang'
+											target='_blank'
+											rel='noreferrer'
+											className='regrets'
+											style={{ color: '#1890ff' }}
+										>
+											India’s Super Brain
+										</a>
+										: A competition format of 6 weeks 3 technologies where hands-on live
+										projects based mentorship of 40+ hours on each topic is provided to
+										make the competition truly unbiased. Fields like ML, IOT, Algo DS,
+										JavaScript, Product Development etc. are offered with a guided roadmap
+										with exciting prizes worth INR 9 Lakhs to win. Top 50 winners further
+										get internships and a sponsored trip to our exclusive Delhi hackathon.
+										<a
+											href='https://isb.alienbrains.in/2021?utm_source=Cultrang&utm_medium=website&utm_campaign=isb_cultrang'
+											target='_blank'
+											rel='noreferrer'
+											className='regrets'
+											style={{ color: '#1890ff' }}
+										>
+											- An Alien Brains Initiative (Our Sponsor)
+										</a>
 									</p>
 								</div>
 							</div>

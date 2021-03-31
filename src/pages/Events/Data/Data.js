@@ -19,7 +19,7 @@ const events = [
 		deadline: '7th April, 2021',
 		icon: danceIcon,
 		poster:
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616938550/Cultrang%20posters/solo_dance_kr9dbq.jpg',
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_720/v1616938550/Cultrang%20posters/solo_dance_kr9dbq.webp',
 	},
 	{
 		id: 'symphony',
@@ -28,7 +28,7 @@ const events = [
 		eventDetails:
 			' If you’ve got the voice, we’ve got the mic! But it takes more than just a mic to create something beautiful. Here’s a competition to bring out your inner virtuoso, and perhaps blow the roof off the place.',
 		poster:
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616942621/Cultrang%20posters/Symphony_eaxcpg.jpg',
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_720/v1616942621/Cultrang%20posters/Symphony_eaxcpg.webp',
 		icon: vocalIcon,
 		deadline: ' 7th April, 2021',
 	},
@@ -40,7 +40,7 @@ const events = [
 			' If you’re anything like us, you’ve probably tried to impersonate Beethoven or Slash a million times, and fantasised about being a rock star. While wearing retro outfits and growing your hair way too long isn’t what we expect, we wouldn’t mind a great solo!',
 		deadline: ' 7th April, 2021',
 		poster:
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616938551/Cultrang%20posters/Harmony_zzur6s.jpg',
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_720/v1616938551/Cultrang%20posters/Harmony_zzur6s.webp',
 		icon: musicIcon,
 	},
 	{
@@ -51,7 +51,7 @@ const events = [
 			' There’s no point in having an opinion if you can’t voice it. Change only happens when the idea is backed by concrete arguments and is robust to counter claims. If you have a way of bringing conviction to your points, we have the perfect competition for you!',
 		deadline: ' 7th April, 2021',
 		poster:
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616938552/Cultrang%20posters/debate_poster_tmpqrj.jpg',
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,h_720,q_70,w_720/v1616938552/Cultrang%20posters/debate_poster_tmpqrj.webp',
 		icon: debateIcon,
 	},
 	{
@@ -63,7 +63,7 @@ const events = [
 		deadline: ' 7th April, 2021',
 		icon: videoEditingIcon,
 		poster:
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616938551/Cultrang%20posters/film_wars_ep7lkc.jpg',
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_720/v1616938551/Cultrang%20posters/film_wars_ep7lkc.webp',
 	},
 	{
 		id: 'brushhour',
@@ -74,7 +74,7 @@ const events = [
 		deadline: ' 7th April, 2021',
 		icon: paintingIcon,
 		poster:
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616942822/Cultrang%20posters/brushHour_tsdbcu.jpg',
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_auto:eco,w_720/v1616942822/Cultrang%20posters/brushHour_tsdbcu.webp',
 	},
 	{
 		id: 'etchasketch',
@@ -85,7 +85,7 @@ const events = [
 		deadline: ' 7th April, 2021',
 		icon: sketchIcon,
 		poster:
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616942719/Cultrang%20posters/etchASketch_m4hqra.jpg',
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_720/v1616942719/Cultrang%20posters/etchASketch_m4hqra.webp',
 	},
 	{
 		id: 'qb',
@@ -96,7 +96,7 @@ const events = [
 		deadline: ' 7th April, 2021',
 		icon: quizIcon,
 		poster:
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616938550/Cultrang%20posters/quiz_poster_buo4fb.jpg',
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_720/v1616938550/Cultrang%20posters/quiz_poster_buo4fb.webp',
 	},
 	{
 		id: 'ikraar',
@@ -106,7 +106,7 @@ const events = [
 			'  Years of evidence still might not be enough for a scientist. But for a poet, a momentary inspiration is all it takes! Showcase your inner Wordsworth, a pill that ink, let those words flow as we wait for your poetry to leave us spellbound.',
 		icon: poetryIcon,
 		poster:
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616938551/Cultrang%20posters/ikraar_poster_ufxo7p.jpg',
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_720/v1616938551/Cultrang%20posters/ikraar_poster_ufxo7p.webp',
 		deadline: ' 7th April, 2021',
 	},
 	{
@@ -118,7 +118,7 @@ const events = [
 		deadline: ' 7th April, 2021',
 		icon: photographyIcon,
 		poster:
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616942718/Cultrang%20posters/vividSnaps_hyhumc.jpg',
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_720/v1616942718/Cultrang%20posters/vividSnaps_hyhumc.webp',
 	},
 	{
 		id: 'thunt',

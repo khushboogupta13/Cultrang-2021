@@ -16,13 +16,13 @@ const Event = () => {
 	];
 	var title = titles[0];
 	var ticket =
-		'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616941398/CultRang%20pro-events/standup_comedy-min_dsn9rn.jpg';
+		'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,h_720,q_70/v1617216099/CultRang%20pro-events/standup_comedy_mag32i.webp';
 	var discription =
 		'Comedic performance in front of a live audience on an online platform, by the esteemed satirist, Appurv Gupta. A pro-event involving humorous instances, jokes, one-liners and much more, to entertain the crowd and tickle some funny bones.';
 	if (id === 'melodiousAuRevoir') {
 		title = titles[1];
 		ticket =
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616941399/CultRang%20pro-events/Melodious_au_Revoir-min_nerd6r.jpg';
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_720/v1616941399/CultRang%20pro-events/Melodious_au_Revoir-min_nerd6r.webp';
 		discription =
 			'An evening filled with soulful melodies, dedicated to resonant musical performances by a virtuoso coupled with a live performance by a ‘pomedian’ which is sure to drive you nuts! Prepare yourselves to laugh and cry, all at the same time as you join us for this melodious au revoir!';
 	} else if (id === 'musicWorkshop') {
@@ -34,13 +34,13 @@ const Event = () => {
 	} else if (id === 'theaterWorkshop') {
 		title = titles[3];
 		ticket =
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616941398/CultRang%20pro-events/theatre_workshop-min_iw8gsd.jpg';
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_720/v1616941398/CultRang%20pro-events/theatre_workshop-min_iw8gsd.webp';
 		discription =
 			'Want to be a superstar? Join our virtual workshop on 9th of April to learn and get some tips to boost your acting skills with Actor and Director, Mr Pradeep Bajpai. The webinar is open to all, so set up your acting faces and learn something new and fun. Register for Workshop here';
 	} else if (id === 'hipHopWorkshop') {
 		title = titles[4];
 		ticket =
-			'https://res.cloudinary.com/dmsa1uerl/image/upload/v1616941399/CultRang%20pro-events/DanceWorkshop-min_e7froo.jpg';
+			'https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_720/v1616941399/CultRang%20pro-events/DanceWorkshop-min_e7froo.webp';
 		discription =
 			'Yearning to learn and have fun with street dance styles? Join our virtual workshop on 10th April to learn Hip Hop from Dancer and Choreographer, Kunal Srivastava. The workshop is open to all, so put on your dancing shoes and join other dancers like yourself to learn something new and fun. No prerequisites, because Anybody Can Dance!';
 	}
