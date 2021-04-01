@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import clouds from './peventsTop.svg';
 import pevntsbottom from './peventsBottom.svg';
-import mobilebottom from './mobile-bottom.png';
+import mobilebottom from './mobile-bottom.webp';
 import './pevent-page.css';
 
 const Event = () => {

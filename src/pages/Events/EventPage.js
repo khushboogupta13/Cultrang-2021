@@ -153,9 +153,11 @@ function EventPage() {
 							</Link>
 						</div>
 						<div className='register-button'>
-								<a href='https://www.sociana.com/' target='_blank' rel='noreferrer'>
-									<p className='register-text'>REGISTER WITH SOCIANA</p>
-								</a>
+							<a href='https://www.sociana.com/' target='_blank' rel='noreferrer'>
+								<p style={{ fontSize: '14px', fontWeight: 'bold', margin: '0px' }}>
+									REGISTER WITH SOCIANA
+								</p>
+							</a>
 						</div>
 					</div>
 				</div>

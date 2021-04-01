@@ -15,13 +15,8 @@ import 'fullpage.js/vendors/scrolloverflow'; // Optional. When using scrollOverf
 import ReactFullpage from '@fullpage/react-fullpage';
 
 function App() {
-	console.log(localStorage.getItem('auth'));
-	const onLeave = (origin, destination, direction) => {
-		console.log('Leaving section ' + origin.index);
-	};
-	const afterLoad = (origin, destination, direction) => {
-		console.log('After load: ' + destination.index);
-	};
+	const onLeave = (origin, destination, direction) => {};
+	const afterLoad = (origin, destination, direction) => {};
 	return (
 		<div className='App'>
 			<Switch>

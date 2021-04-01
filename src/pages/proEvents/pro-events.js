@@ -7,7 +7,7 @@ import ticket2 from './ticket2.png';
 import ticket3 from './ticket3.png';
 import ticket4 from './ticket4.png';
 import ticket5 from './ticket5.png';
-import mobilebottom from './mobile-bottom.png';
+import mobilebottom from './mobile-bottom.webp';
 import { Link } from 'react-router-dom';
 
 const Proevents = () => {

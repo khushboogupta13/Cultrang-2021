@@ -44,27 +44,6 @@ import sanya from '../../components/vectors/boarding_passes/sanya.png';
 import satvik from '../../components/vectors/boarding_passes/satvik.png';
 import sourabh from '../../components/vectors/boarding_passes/sourabh.png';
 import svara from '../../components/vectors/boarding_passes/svara.png';
-import aastha_m from '../../components/vectors/mobile_passes/aastha_m@4x.png';
-import aadil_m from '../../components/vectors/mobile_passes/aadil_m@4x.png';
-import arpit_m from '../../components/vectors/mobile_passes/arpit_m@4x.png';
-import adwait_m from '../../components/vectors/mobile_passes/adwait_m@4x.png';
-import akshay_m from '../../components/vectors/mobile_passes/akshay_m@4x.png';
-import darshay_m from '../../components/vectors/mobile_passes/darshay_m@4x.png';
-import deep_m from '../../components/vectors/mobile_passes/deep_m@4x.png';
-import gunjan_m from '../../components/vectors/mobile_passes/gunjan_m@4x.png';
-import harshil_m from '../../components/vectors/mobile_passes/harshil_m@4x.png';
-import kartik_m from '../../components/vectors/mobile_passes/kartik_m@4x.png';
-import khushboo_m from '../../components/vectors/mobile_passes/khushboo_m@4x.png';
-import mansi_m from '../../components/vectors/mobile_passes/mansi_m@4x.png';
-import namami_m from '../../components/vectors/mobile_passes/namami_m@4x.png';
-import naveen_m from '../../components/vectors/mobile_passes/naveen_m@4x.png';
-import saksham_m from '../../components/vectors/mobile_passes/saksham_m@4x.png';
-import sanya_m from '../../components/vectors/mobile_passes/sanya_m@4x.png';
-import satvik_m from '../../components/vectors/mobile_passes/satvik_m@4x.png';
-import sejal_m from '../../components/vectors/mobile_passes/sejal_m@4x.png';
-import sourabh_m from '../../components/vectors/mobile_passes/sourabh_m@4x.png';
-import surya_m from '../../components/vectors/mobile_passes/surya_m@4x.png';
-import svara_m from '../../components/vectors/mobile_passes/svara_m@4x.png';
 import bottom_m from '../../components/vectors/mobile_passes/bottom_m.png';
 
 const ContactUs = () => {
@@ -80,8 +59,8 @@ const ContactUs = () => {
 	const event_settings = {
 		dots: true,
 		infinite: true,
-		slidesToShow: 2,
-		slidesToScroll: 2,
+		slidesToShow: 1,
+		slidesToScroll: 1,
 		vertical: true,
 		verticalSwiping: true,
 	};
@@ -717,9 +696,11 @@ const ContactUs = () => {
 					}}
 				>
 					<span className='heading-mobile'>Overall Coordinator</span>
-					<img src={saksham_m} style={{ width: '60vw', height: '90vw' }} />
+					<img
+						src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271040/Contact%20us/moibile/saksham_m_4x_sumuu2.webp'
+						style={{ width: '60vw', height: '90vw' }}
+					/>
 				</div>
-
 				<div
 					className='studentAdvisor'
 					style={{
@@ -730,9 +711,11 @@ const ContactUs = () => {
 					}}
 				>
 					<span className='heading-mobile'>Student Advisor</span>
-					<img src={harshil_m} style={{ width: '60vw', height: '90vw' }} />
+					<img
+						src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271040/Contact%20us/moibile/harshil_m_4x_fjy7il.webp'
+						style={{ width: '60vw', height: '90vw' }}
+					/>
 				</div>
-
 				<div
 					className='managementHead'
 					style={{
@@ -743,22 +726,33 @@ const ContactUs = () => {
 					}}
 				>
 					<span className='heading-mobile'>Management Head</span>
-					<img src={aadil_m} style={{ width: '60vw', height: '90vw' }} />
+					<img
+						src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271039/Contact%20us/moibile/aadil_m_4x_fb5zvi.webp'
+						style={{ width: '60vw', height: '90vw' }}
+					/>
 				</div>
 
-				<div className='sponsorshipHead' style={{ margin: '1rem' }}>
+				<div
+					className='sponsorshipHead'
+					style={{
+						margin: '1rem',
+						display: 'flex',
+						flexDirection: 'column',
+						alignItems: 'center',
+					}}
+				>
 					<span className='heading-mobile'>Sponsorship Coordinator</span>
 					<div className='sl-div'>
 						<Slider {...mobile_settings}>
 							<div>
 								<img
-									src={aastha_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271039/Contact%20us/moibile/aastha_m_4x_b0tzti.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
 							<div>
 								<img
-									src={adwait_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271039/Contact%20us/moibile/adwait_m_4x_r94rt3.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
@@ -780,13 +774,13 @@ const ContactUs = () => {
 						<Slider {...mobile_settings}>
 							<div>
 								<img
-									src={surya_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271041/Contact%20us/moibile/surya_m_4x_ukgxmx.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
 							<div>
 								<img
-									src={sourabh_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271041/Contact%20us/moibile/sourabh_m_4x_poln9f.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
@@ -804,7 +798,10 @@ const ContactUs = () => {
 					}}
 				>
 					<span className='heading-mobile'>Design Head</span>
-					<img src={khushboo_m} style={{ width: '60vw', height: '90vw' }} />
+					<img
+						src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271040/Contact%20us/moibile/khushboo_m_4x_yrfrrr.webp'
+						style={{ width: '60vw', height: '90vw' }}
+					/>
 				</div>
 
 				<div
@@ -817,7 +814,10 @@ const ContactUs = () => {
 					}}
 				>
 					<span className='heading-mobile'>Finance Head</span>
-					<img src={darshay_m} style={{ width: '60vw', height: '90vw' }} />
+					<img
+						src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271039/Contact%20us/moibile/darshay_m_4x_baiuqm.webp'
+						style={{ width: '60vw', height: '90vw' }}
+					/>
 				</div>
 
 				<div
@@ -830,7 +830,10 @@ const ContactUs = () => {
 					}}
 				>
 					<span className='heading-mobile'>Social Media & Content Head</span>
-					<img src={sanya_m} style={{ width: '60vw', height: '90vw' }} />
+					<img
+						src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271041/Contact%20us/moibile/sanya_m_4x_ey8ije.webp'
+						style={{ width: '60vw', height: '90vw' }}
+					/>
 				</div>
 
 				<div
@@ -847,67 +850,67 @@ const ContactUs = () => {
 						<Slider {...mobile_settings}>
 							<div>
 								<img
-									src={arpit_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271039/Contact%20us/moibile/arpit_m_4x_rtggas.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
 							<div>
 								<img
-									src={naveen_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271040/Contact%20us/moibile/naveen_m_4x_viy5ao.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
 							<div>
 								<img
-									src={namami_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271040/Contact%20us/moibile/namami_m_4x_xdjems.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
 							<div>
 								<img
-									src={kartik_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271040/Contact%20us/moibile/kartik_m_4x_qnktij.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
 							<div>
 								<img
-									src={akshay_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271039/Contact%20us/moibile/akshay_m_4x_klpp4p.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
 							<div>
 								<img
-									src={gunjan_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271040/Contact%20us/moibile/gunjan_m_4x_qe7xzt.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
 							<div>
 								<img
-									src={sejal_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271041/Contact%20us/moibile/sejal_m_4x_yhhg22.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
 							<div>
 								<img
-									src={satvik_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271041/Contact%20us/moibile/satvik_m_4x_qrk1dd.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
 							<div>
 								<img
-									src={deep_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271040/Contact%20us/moibile/deep_m_4x_q49eim.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
 							<div>
 								<img
-									src={mansi_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_300/v1617271040/Contact%20us/moibile/mansi_m_4x_o1p0um.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
 							<div>
 								<img
-									src={svara_m}
+									src='https://res.cloudinary.com/dmsa1uerl/image/upload/c_scale,q_70,w_240/v1617271041/Contact%20us/moibile/svara_m_4x_rm4pxq.webp'
 									style={{ width: '60vw', height: '90vw', marginLeft: '1.6rem' }}
 								/>
 							</div>
