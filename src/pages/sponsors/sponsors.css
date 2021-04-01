@@ -140,7 +140,7 @@
 		margin-top: -1rem;
 	}
 	#bottomPng {
-		width: 300vw;
+		width: 300vw !important;
 	}
 	#bottomVector {
 		margin-top: -115vw;
